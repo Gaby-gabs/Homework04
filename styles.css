@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./blog-and-information-website-concept-workplace-background-with-text.webp");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgb(6, 190, 190);
+    background-size: contain;
+    padding-left: 10px;
+}
+
+.header input{
+    width: 20%;
+    margin-bottom: 10px;
+    border: #ffffff;
+    border-radius: 5px;
+}
+
+input:hover{
+    background-color: rgb(126, 219, 219);
+    border: rgb(126, 219, 219);
+
+}
+
+h2{
+    text-align: center;
+}
+
+.entradas{
+    margin-left: 100px;
+}
+.entrada{
+    max-width: 75%;
+    padding: 10px;
+}
+.entrada h3{
+    text-align: center;
+
+}
+
+.entrada:hover{
+    background-color: #ffe4c4;
+    border-radius: 5px ;
+}
+
+.footer{
+    margin: 20px;
+}
+.footer a:hover{
+    color: coral;
+}
+
+.formulario{
+    display: inline;
+    max-width: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input{
+    margin-bottom: 20px;
+}
+.contacto {
+    max-width: 50rem;
+    text-align: left;
+}
+
+
